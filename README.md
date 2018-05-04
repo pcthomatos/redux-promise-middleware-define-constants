@@ -1,5 +1,5 @@
 # redux-promise-middleware-define-constants [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Helper for defining constants
+> Helper for defining constants for use with the redux-promise-middleware package.
 
 ## Installation
 
