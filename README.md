@@ -31,5 +31,6 @@ MIT © [PC Thomatos](https://github.com/pcthomatos)
 [travis-url]: https://travis-ci.org/pcthomatos/redux-promise-middleware-define-constants
 [daviddm-image]: https://david-dm.org/pcthomatos/redux-promise-middleware-define-constants.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/pcthomatos/redux-promise-middleware-define-constants
-[coveralls-image]: https://coveralls.io/repos/pcthomatos/redux-promise-middleware-define-constants/badge.svg
+[coveralls-image]: https://coveralls.io/repos/github/pcthomatos/redux-promise-middleware-define-constants/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/r/pcthomatos/redux-promise-middleware-define-constants
+
