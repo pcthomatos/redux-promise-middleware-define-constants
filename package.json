@@ -2,7 +2,7 @@
   "name": "redux-promise-middleware-define-constants",
   "version": "1.0.4",
   "description": "Helper for defining constants",
-  "main": "index.js",
+  "main": "lib/index.js",
   "typings": "index.d.ts",
   "author":
     "PC Thomatos <pthoma23@hotmail.com> (https://github.com/pcthomatos)",
