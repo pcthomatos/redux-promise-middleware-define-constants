@@ -1,6 +1,6 @@
 {
   "name": "redux-promise-middleware-define-constants",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Helper for defining constants",
   "main": "index.js",
   "typings": "index.d.ts",
