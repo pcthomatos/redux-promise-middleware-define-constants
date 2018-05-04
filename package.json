@@ -6,7 +6,7 @@
   "typings": "index.d.ts",
   "author":
     "PC Thomatos <pthoma23@hotmail.com> (https://github.com/pcthomatos)",
-  "files": ["lib"],
+  "files": ["lib", "index.d.ts"],
   "keywords": [
     "redux",
     "promise",
@@ -44,12 +44,11 @@
     "build:commonjs": "babel src --out-dir lib --ignore *-test.js",
     "clean": "rimraf lib",
     "lint": "esw src webpack.config --color",
-    "prepublish": "npm run lint && npm test && npm run build",
+    "prepare": "npm test && npm run build",
     "prepublishOnly": "nsp check",
     "pretest": "eslint ./src",
     "precommit": "lint-staged",
-    "test":
-      "NODE_ENV=test jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "test": "npm run pretest && NODE_ENV=test jest"
   },
   "lint-staged": {
     "*.js": ["eslint --fix", "git add"],
