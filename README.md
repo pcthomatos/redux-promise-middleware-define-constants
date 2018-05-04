@@ -1,5 +1,5 @@
 # redux-promise-middleware-define-constants [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Helper for defining constants
+> Helper for defining constants for use with the redux-promise-middleware package.
 
 ## Installation
 
@@ -25,7 +25,7 @@ console.log(GET_USERS.REJECTED); // GET_USERS_REJECTED
 MIT © [PC Thomatos](https://github.com/pcthomatos)
 
 
-[npm-image]: https://badge.fury.io/js/%40pcthomatos%2Fredux-promise-middleware-define-constants.svg
+[npm-image]: https://badge.fury.io/js/redux-promise-middleware-define-constants.svg
 [npm-url]: https://npmjs.org/package/redux-promise-middleware-define-constants
 [travis-image]: https://travis-ci.org/pcthomatos/redux-promise-middleware-define-constants.svg?branch=master
 [travis-url]: https://travis-ci.org/pcthomatos/redux-promise-middleware-define-constants
