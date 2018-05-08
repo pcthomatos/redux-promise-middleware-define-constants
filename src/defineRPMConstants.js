@@ -10,7 +10,17 @@ const defineRPMConstants = (constant) => {
   }
 
   return Object.defineProperties(Object.create(null), {
+    ACTION_TYPE: {
+      value: constant,
+      writable: false,
+      configurable: false,
+    },
     ACTION: {
+      value: constant,
+      writable: false,
+      configurable: false,
+    },
+    TYPE: {
       value: constant,
       writable: false,
       configurable: false,
