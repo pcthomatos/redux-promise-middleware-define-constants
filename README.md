@@ -13,11 +13,15 @@ $ npm install --save redux-promise-middleware-define-constants
 const defineRPMConstants = require('redux-promise-middleware-define-constants');
 
 const GET_USERS = defineRPMConstants('GET_USERS');
-
-console.log(GET_USERS.ACTION); // GET_USERS
+console.log(GET_USERS.ACTION_TYPE); // GET_USERS
 console.log(GET_USERS.PENDING); // GET_USERS_PENDING
 console.log(GET_USERS.FULFILLED); // GET_USERS_FULFILLED
 console.log(GET_USERS.REJECTED); // GET_USERS_REJECTED
+
+//extra aliases
+
+console.log(GET_USERS.TYPE); // GET_USERS
+console.log(GET_USERS.ACTION); // GET_USERS
 
 ```
 ## License
